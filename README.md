@@ -8,8 +8,17 @@ This project is an introduction to a well known mechanism of the UNIX system cal
 > Run ```make```
 
 # Running
-```./push_swap 1 2 3 4```
+```./pipex <infile> <cmd 1> <cmd 2> <outfile>```
 
-or
+# Exemple
 
-```./push_swap "1 2 3 4"```
+Command:
+
+```./pipex infile "ls -l" "wc -l" outfile```
+
+Result in "**outfile**":
+
+```
+➜  pipex $ cat outfile
+       9
+```
