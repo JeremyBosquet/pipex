@@ -52,5 +52,7 @@ Mkfile.old
 dkms.conf
 
 .DS_Store
+.vscode
 objs
 pipex
+README.md
