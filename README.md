@@ -1,6 +1,6 @@
 # pipex
 
-42 Project - Make in c the UNIX pipe
+42 Project - Make UNIX pipe in C
 
 This project is an introduction to a well known mechanism of the UNIX system called pipes
 
