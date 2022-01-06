@@ -12,13 +12,8 @@ This project is an introduction to a well known mechanism of the UNIX system cal
 
 # Exemple
 
-Command:
-
-```./pipex infile "ls -l" "wc -l" outfile```
-
-Result in "**outfile**":
-
 ```
-➜  pipex $ cat outfile
+➜  pipex ✗ ./pipex infile "ls -l" "wc -l" outfile
+➜  pipex ✗ cat outfile
        9
 ```
